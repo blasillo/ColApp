@@ -1,4 +1,4 @@
-package controladores;
+package es.jcyl.colapp.controladores;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

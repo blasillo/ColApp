@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-import controladores.PrincipalCtrl;
 import es.jcyl.colapp.config.SeguridadConfig;
+import es.jcyl.colapp.controladores.PrincipalCtrl;
 
 @SpringBootApplication (exclude = { SecurityAutoConfiguration.class })
 @ComponentScan(basePackageClasses=PrincipalCtrl.class)
