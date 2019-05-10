@@ -1,0 +1,108 @@
+body, html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #f1f1f1 !important;
+			 font-family: Lato, Lora;
+		}
+		
+.tarjeta {
+			height: 400px;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #F2F4EC;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+		}
+		
+.logo_contenedor {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #e3eeee;
+			padding: 10px;
+			text-align: center;
+		}
+
+	
+logo {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
+		
+.form_contenedor {
+	margin-top: 100px;
+}
+
+
+.btn_login {
+	width: 100%;
+	background: #ba0c2f !important;
+	color: white !important;
+}
+		
+.btn_login:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_contenedor {
+	padding: 0 2rem;
+}
+
+.input-group-text {
+	background: #ba0c2f !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_usuario,
+.input_contrasena:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: #c0392b !important;
+}
+		
+
+.form-busqueda {
+	max-width: 350px;
+	padding: 19px 29px 29px;
+	margin: 0 auto 20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	
+}
+
+.form-busqueda .form-busqueda-cabecera {
+	margin-bottom: 10px;
+}
+
+.form-busqueda input[type="text"], 
+.form-busqueda input[type="password"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 12px;
+	padding: 7px 7px;
+}
