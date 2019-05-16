@@ -9,10 +9,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 import es.jcyl.colapp.config.SeguridadConfig;
-import es.jcyl.colapp.controladores.PrincipalCtrl;
+import es.jcyl.colapp.controladores.LoginControler;
 
 @SpringBootApplication (exclude = { SecurityAutoConfiguration.class })
-@ComponentScan(basePackageClasses=PrincipalCtrl.class)
+@ComponentScan(basePackageClasses=LoginControler.class)
 public class ColappApplication {
 
 	public static void main(String[] args) {
